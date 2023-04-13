@@ -1,14 +1,9 @@
 import React from "react";
+import "./Button.css";
 
 export default function Button() {
   return (
-    <button
-      onClick={() => alert("hi")}
-      style={{
-        color: "var(--color-foam)",
-        backgroundColor: "var(--color-nemo)",
-      }}
-    >
+    <button className="mybutton" onClick={() => alert("hi")}>
       Button
     </button>
   );
