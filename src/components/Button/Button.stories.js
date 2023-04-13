@@ -32,3 +32,25 @@ Archived.args = {
     state: "TASK_ARCHIVED",
   },
 };
+
+export const Hover = Template.bind({});
+Hover.parameters = {
+  pseudo: { hover: true },
+};
+Hover.args = {
+  task: {
+    ...Default.args.task,
+    state: "TASK_ARCHIVED",
+  },
+};
+
+export const Focus = Template.bind({});
+Focus.parameters = {
+  pseudo: { focus: true },
+};
+Focus.args = {
+  task: {
+    ...Default.args.task,
+    state: "TASK_ARCHIVED",
+  },
+};
