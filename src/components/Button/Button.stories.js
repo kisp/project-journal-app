@@ -38,3 +38,14 @@ Focus.args = {
     state: "TASK_ARCHIVED",
   },
 };
+
+export const FocusVisible = Template.bind({});
+FocusVisible.parameters = {
+  pseudo: { focusVisible: true },
+};
+FocusVisible.args = {
+  task: {
+    ...Default.args.task,
+    state: "TASK_ARCHIVED",
+  },
+};
