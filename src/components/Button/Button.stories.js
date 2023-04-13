@@ -17,22 +17,6 @@ Default.args = {
   },
 };
 
-export const Pinned = Template.bind({});
-Pinned.args = {
-  task: {
-    ...Default.args.task,
-    state: "TASK_PINNED",
-  },
-};
-
-export const Archived = Template.bind({});
-Archived.args = {
-  task: {
-    ...Default.args.task,
-    state: "TASK_ARCHIVED",
-  },
-};
-
 export const Hover = Template.bind({});
 Hover.parameters = {
   pseudo: { hover: true },
